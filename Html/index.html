@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Home | Fresh-eCommerce Them</title>
+    <link rel="icon" type="image/png" href="/Imgs/favicon.ico" />
+    <link rel="stylesheet" href="/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div
+      class="container-fluid bg-light d-flex flex-column flex-md-row justify-content-between align-items-center px-3 px-md-5 py-2"
+    >
+      <p class="mb-0 text-center text-md-start">
+        Super Value Deals - Save more with coupons
+      </p>
+      <div class="dropdown mt-2 mt-md-0">
+        <img
+          src="/Imgs/english.png"
+          alt="Language Flag"
+          width="24"
+          height="16"
+          class="me-2"
+        />
+        <button
+          class="btn btn-sm dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Language
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">English</a></li>
+          <li><a class="dropdown-item" href="#">Spanish</a></li>
+          <li><a class="dropdown-item" href="#">French</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="/Imgs/favicon.ico"
+            alt="FreshCart Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          FreshCart
+        </a>
+
+        <!-- Toggler Button for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Search Form -->
+          <form class="d-flex my-3 my-lg-0 mx-auto w-50" role="search">
+            <div class="input-group">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search for products"
+              />
+              <button class="btn btn-outline-success ms-3" type="button">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="d-none d-md-inline">Location</span>
+              </button>
+            </div>
+          </form>
+
+          <!-- Icons -->
+          <div
+            class="d-flex justify-content-center align-items-center gap-3 ms-lg-auto"
+          >
+            <div class="position-relative">
+              <i class="fa-regular fa-heart"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                >4</span
+              >
+            </div>
+            <div>
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="position-relative">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                >5</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Navigation -->
+    <div class="container-fluid py-2">
+      <div class="row align-items-center">
+        <div class="col-lg-3 d-none d-lg-block">
+          <div class="dropdown">
+            <button
+              class="btn btn-success dropdown-toggle w-100"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fa fa-th"></i> All Departments
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dairy, Bread & Eggs</a></li>
+              <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+              <li><a class="dropdown-item" href="#">Fruit & Vegetables</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Cold Drinks & Juices</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Breakfast & Instant Foods</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Bakery & Biscuits</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Chicken, Meat & Fish</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-9">
+          <div class="navbar navbar-expand-lg px-0">
+            <button
+              class="navbar-toggler d-lg-none"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNav"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+              <div class="d-flex flex-column flex-lg-row gap-3 w-100">
+                <!-- Home Dropdown -->
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                    >Home</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home Default</a></li>
+                    <li><a class="dropdown-item" href="#">Home Modern</a></li>
+                    <li><a class="dropdown-item" href="#">Home Creative</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Home Local Store</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Home Minimalist</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Shop Dropdown -->
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                    >Shop</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Shop Grid - Filter</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Shop Grid - 3 column</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Shop List - Filter</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Shop - Filter</a></li>
+                    <li><a class="dropdown-item" href="#">Shop Wide</a></li>
+                    <li><a class="dropdown-item" href="#">Shop Single</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Shop Single v2</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Shop Wishlist</a></li>
+                    <li><a class="dropdown-item" href="#">Shop Cart</a></li>
+                    <li><a class="dropdown-item" href="#">Shop Checkout</a></li>
+                  </ul>
+                </div>
+
+                <!-- Stores Dropdown -->
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                    >Stores</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Store List</a></li>
+                    <li><a class="dropdown-item" href="#">Store Grid</a></li>
+                    <li><a class="dropdown-item" href="#">Store Single</a></li>
+                  </ul>
+                </div>
+
+                <!-- Mega Menu Dropdown -->
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                    >Mega Menu</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Dairy, Bread & Eggs</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Butter</a></li>
+                    <li><a class="dropdown-item" href="#">Milk Drinks</a></li>
+                    <li><a class="dropdown-item" href="#">Curd & Yogurt</a></li>
+                    <li><a class="dropdown-item" href="#">Eggs</a></li>
+                    <li><a class="dropdown-item" href="#">Buns & Bakery</a></li>
+                    <li><a class="dropdown-item" href="#">Cheese</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Condensed Milk</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Dairy Products</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Breakfast & Instant Food</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Breakfast Cereal</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Noodles, Pasta & Soup</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Frozen Veg Snacks</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Frozen Non-Veg Snacks</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Instant Mixes</a></li>
+                    <li><a class="dropdown-item" href="#">Batter</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Fruit and Juices</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Cold Drinks & Juices</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Soft Drinks</a></li>
+                    <li><a class="dropdown-item" href="#">Fruit Juices</a></li>
+                    <li><a class="dropdown-item" href="#">Coldpress</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Water & Ice Cubes</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Soda & Mixers</a></li>
+                    <li><a class="dropdown-item" href="#">Health Drinks</a></li>
+                    <li><a class="dropdown-item" href="#">Herbal Drinks</a></li>
+                    <li><a class="dropdown-item" href="#">Milk Drinks</a></li>
+                  </ul>
+                </div>
+
+                <!-- Pages Dropdown -->
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                    >Pages</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Category</a></li>
+                    <li><a class="dropdown-item" href="#">About us</a></li>
+                    <li><a class="dropdown-item" href="#">404 Error</a></li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                  </ul>
+                </div>
+
+                <!-- Account Dropdown -->
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                    >Account</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sign in</a></li>
+                    <li><a class="dropdown-item" href="#">Signup</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Forgot Password</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">My Account</a></li>
+                    <li><a class="dropdown-item" href="#">Orders</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Address</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Payment Method</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Notification</a></li>
+                  </ul>
+                </div>
+
+                <!-- Dashboard and Docs Links -->
+                <div>
+                  <a
+                    class="nav-link text-dark"
+                    href="#"
+                    style="text-decoration: none"
+                    >Dashboard</a
+                  >
+                </div>
+                <div>
+                  <a
+                    class="nav-link text-dark"
+                    href="#"
+                    style="text-decoration: none"
+                    >Docs</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <script src="/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
