@@ -5,6 +5,27 @@
 .dropdown:hover {
   color: red;
 }
+@media (min-width: 768px) {
+  .menue {
+    width: 800px;
+    left: 0 !important;
+    right: auto !important;
+    padding: 20px;
+  }
+
+  .dropdown-menu .row {
+    flex-wrap: nowrap;
+  }
+
+  .dropdown-menu .col-md-2 {
+    min-width: 200px;
+  }
+}
+
+.dropdown-menu img {
+  max-width: 100%;
+  height: auto;
+}
 
 .product-card {
   border: 2px solid #28a745;
