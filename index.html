@@ -338,7 +338,7 @@
         data-bs-ride="carousel"
         data-bs-interval="3000"
       >
-        <div class="carousel-indicators">
+        <div class="bullets carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
@@ -354,6 +354,7 @@
             aria-label="Slide 2"
           ></button>
         </div>
+
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -412,201 +413,184 @@
     </div>
 
     <!-- Carousel for Featured Categories -->
-    <div class="container py-5 ca">
-      <h2 class="text-left">Featured Categories</h2>
+    <div class="container py-5">
       <div
-        id="cardCarousel"
-        class="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-interval="3000"
+        class="d-flex flex-column flex-md-row justify-content-between align-items-center"
       >
+        <h2 class="fw-bold mb-3 mb-md-0">Featured Categories</h2>
+        <!-- Custom Carousel Controls -->
+        <div>
+          <button
+            class="btn btn-light rounded-circle border shadow-sm me-2"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button
+            class="btn btn-light rounded-circle border shadow-sm"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-          <!-- First Group (4 Cards) -->
+          <!-- First Group -->
           <div class="carousel-item active">
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4 mt-3">
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/1.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Bhujia Sev"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Bhujia Sev</h5>
-                  </div>
+            <div class="d-flex flex-nowrap overflow-auto g-4 mt-3">
+              <!-- Card 1 -->
+              <!-- <div class="card h-100" style="min-width: 200px; height: 200px">
+                <img
+                  src="/Imgs/product-img-6_LE_upscale_balanced_x4.jpg"
+                  class="card-img-top img-fluid"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Epigamia</h5>
+                </div>
+              </div> -->
+              <!-- Card 2 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/4.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Tea , Coffee & Drinks"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Tea , Coffee & Drinks</h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/4.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Bakery & Biscuits"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">
-                      Tea , Coffee & Drinks
-                    </h5>
-                  </div>
+              <!-- Card 3 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/5.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Snacks & Munchies"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Snacks & Munchies</h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/5.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Snacks & Munchies"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Snacks & Munchies</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/6.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Cold Drinks & Juices"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Dairy, Bread & Eggs</h5>
-                  </div>
+              <!-- Card 4 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/6.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Dairy, Bread & Eggs"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Dairy, Bread & Eggs</h5>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Second Group (4 Cards) -->
+          <!-- Second Group -->
           <div class="carousel-item">
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4 mt-3">
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/7.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Fruit & Vegetables"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Fruit & Vegetables</h5>
-                  </div>
+            <div class="d-flex flex-nowrap overflow-auto g-4 mt-3">
+              <!-- Card 5 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/7.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Fruit & Vegetables"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Fruit & Vegetables</h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/8.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Instant Food"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Instant Food</h5>
-                  </div>
+              <!-- Card 6 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/8.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Instant Food"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Instant Food</h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/9.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Fruit & Vegetables"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Fruit & Vegetables</h5>
-                  </div>
+              <!-- Card 7 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/9.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Fruit & Vegetables"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Fruit & Vegetables</h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/10.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Pet Care"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Pet Care</h5>
-                  </div>
+              <!-- Card 8 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/10.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Pet Care"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Pet Care</h5>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Third Group (Remaining Cards) -->
+          <!-- Third Group -->
           <div class="carousel-item">
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4 mt-3">
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/11.jpeg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Britannia Cheese Slices"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">
-                      Britannia Cheese Slices
-                    </h5>
-                  </div>
+            <div class="d-flex flex-nowrap overflow-auto g-4 mt-3">
+              <!-- Card 9 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/11.jpeg"
+                  class="card-img-top img-fluid"
+                  alt="Britannia Cheese Slices"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    Britannia Cheese Slices
+                  </h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/category-atta-rice-dal_LE_upscale_balanced_x4.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Atta, Rice & Dal"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Atta, Rice & Dal</h5>
-                  </div>
+              <!-- Card 10 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/category-atta-rice-dal_LE_upscale_balanced_x4.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Atta, Rice & Dal"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Atta, Rice & Dal</h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/category-bakery-biscuits_LE_upscale_balanced_x4.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Bakery & Biscuits"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Bakery & Biscuits</h5>
-                  </div>
+              <!-- Card 11 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/category-bakery-biscuits_LE_upscale_balanced_x4.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Bakery & Biscuits"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Bakery & Biscuits</h5>
                 </div>
               </div>
-              <div class="col">
-                <div class="card d-flex flex-column h-100">
-                  <img
-                    src="/Imgs/category-cleaning-essentials_LE_upscale_balanced_x4.jpg"
-                    class="card-img-top flex-shrink-0"
-                    alt="Beverages"
-                  />
-                  <div class="card-body flex-grow-1">
-                    <h5 class="card-title text-center">Beverages</h5>
-                  </div>
+              <!-- Card 12 -->
+              <div class="card h-100" style="min-width: 200px; height: 300px">
+                <img
+                  src="/Imgs/category-cleaning-essentials_LE_upscale_balanced_x4.jpg"
+                  class="card-img-top img-fluid"
+                  alt="Beverages"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Beverages</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Carousel Controls -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#cardCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#cardCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
 
